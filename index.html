@@ -35,25 +35,38 @@
         list-style: none;
         margin: 0 23px;
       }
+      nav ul li a{
+        text-decoration: none;  
+        color: white;  
+      }
+      nav ul li a:hover{
+        color: rgb(156, 156, 202);  
+        font-size: 1.04rem;
+      }
       .left{
         font-size: 1.6rem;
       }
       .firstSection{
         display: flex;
         justify-content: space-around;
-        margin: 23px 0;
+        align-items: center;
+        margin: 80px, 0;
+
       }
-      .firstSection div{
+      .firstSection >div{
         width: 30%;
       }
       .leftSection{
-        color: lightcyan;
-        width: 34px;
+        font_size: 3rem;
+            }
+      .rightSection img{
+        width: 80%;
       }
-      .rightSection{
-        color:  lightcyan;
-        width: 34px;
+      .purple{
+        color: rgb(170, 143, 195);
+
       }
+
     </style>
   </head>
   <body>
@@ -62,21 +75,25 @@
         <div class="left">Akshita's Portfolio</div>
         <div class="right">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact Me</li>
+                <li> <a href ="/">Home</a></li>
+                <li> <a href ="/">About</a></li>
+                <li> <a href ="/">Projects</a></li>
+               <li> <a href ="/">Contact Me</a></li>
             </ul>
         </div>
       </nav>
     </header>
     <main>
         <section class="firstSection">
-            <div class="leftSection"></div>
-            Hi, My name is Akshita.
+            <div class="leftSection">
+            Hi, My name is
+            <span class = "purple">Akshita.</span>
+            <div> and I am currently pursuing Bachelors of Technology from MNNIT Allahabad.</div>
+            </div>
             <div class="rightSection"></div>
-            right
+       <img src ="bg.png.png"  alt style =" 
+       ">    
     </section>
-    </main>
+    </main> 
   </body>
 </html>
